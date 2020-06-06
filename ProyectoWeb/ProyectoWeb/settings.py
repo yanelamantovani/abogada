@@ -27,7 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-STATICFILES_DIRS = ["/Users/pablomendoza/Documents/Yane/Web/abogada/ProyectoWeb/ProyectoWeb/Template/static"]
+STATICFILES_DIRS = ["ProyectoWeb/Template/static"]
 
 
 # Application definition
@@ -56,7 +56,7 @@ ROOT_URLCONF = 'ProyectoWeb.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ["/Users/pablomendoza/Documents/Yane/Web/abogada/ProyectoWeb/ProyectoWeb/Template"],
+        'DIRS': ["ProyectoWeb/Template"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
