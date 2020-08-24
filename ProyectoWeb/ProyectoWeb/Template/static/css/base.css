@@ -69,7 +69,7 @@ abbr[title] {
 }
 
 b, strong {
-  font-weight: bold;
+  font-weight: 300;
 }
 
 dfn {
@@ -213,7 +213,7 @@ textarea {
 }
 
 optgroup {
-  font-weight: bold;
+  font-weight: 300;
 }
 
 table {
@@ -241,7 +241,7 @@ html {
 }
 
 body {
-  font-weight: normal;
+  font-weight: 300;
   line-height: 1;
   text-rendering: optimizeLegibility;
   word-wrap: break-word;
@@ -283,7 +283,7 @@ em, i {
 }
 
 strong, b {
-  font-weight: bold;
+  font-weight: 300;
   line-height: inherit;
 }
 
